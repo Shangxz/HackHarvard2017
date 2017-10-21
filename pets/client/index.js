@@ -47,6 +47,7 @@ Template.body.events({
                 console.log("error occured on receiving data on server. ", err);
             } else {
                 console.log("respJson: ", respJson);
+
                 //window.alert(respJson.length + ' tweets received.');
             }
         });
